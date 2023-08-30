@@ -179,13 +179,14 @@
 
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
   list-style-type: none;
 }
 
 .lots__card-list-item {
   display: flex;
-  flex-grow: 1;  
+  flex: 1 0 0; 
   min-width: 430px;
   min-height: 450px;
 }
